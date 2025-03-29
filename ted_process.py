@@ -36,7 +36,7 @@ class Srt2Lrc:
     def __init__(
         self, srtItems, ti="", al="TED-Japanese", ar="TED", by="@lijunjie2232"
     ):
-        self.head = f"[ti:{ti}]\n" + f"[ar:{al}]\n" + f"[al:{al}\n" + f"[by:{by}]\n"
+        self.head = f"[ti:{ti}]\n" + f"[ar:{ar}]\n" + f"[al:{al}]\n" + f"[by:{by}]\n"
 
         self.lrcs = []
         for srtItem in srtItems:
